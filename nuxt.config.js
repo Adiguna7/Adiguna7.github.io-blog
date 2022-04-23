@@ -6,7 +6,7 @@ files = files.map(d => '/posts/' + d.substr(0, d.lastIndexOf('.')))
 
 const routerBase = {
     router: {
-        base: process.env.DEPLOY_ENV === 'GH_PAGES' ? '/simple-static-nuxtjs-blog/' : '/'
+        base: process.env.DEPLOY_ENV === 'GH_PAGES' ? '/adiguna7-blog/' : '/'
     }
 }
 
